@@ -29,7 +29,7 @@
                                     <color key="baseForegroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </buttonConfiguration>
                                 <connections>
-                                    <action selector="truthAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Lnu-2Y-YYy"/>
+                                    <action selector="truthAction" destination="BYZ-38-t0r" eventType="touchUpInside" id="dwi-am-nv9"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yYj-Ec-9OL">
@@ -46,7 +46,7 @@
                                     <color key="baseForegroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </buttonConfiguration>
                                 <connections>
-                                    <action selector="actionAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="bqZ-ZV-9ip"/>
+                                    <action selector="actionAction" destination="BYZ-38-t0r" eventType="touchUpInside" id="6a2-Uz-RLc"/>
                                 </connections>
                             </button>
                             <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="ПРАВДА ИЛИ ДЕЙСТВИЕ?" borderStyle="roundedRect" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Oph-sj-7sh">
@@ -78,7 +78,6 @@
                         </constraints>
                     </view>
                     <connections>
-                        <outlet property="actionButton" destination="yYj-Ec-9OL" id="xxH-ez-lky"/>
                         <outlet property="textLabel" destination="S1j-66-cTE" id="wzz-od-5ZH"/>
                         <outlet property="truthButton" destination="eul-b0-nr2" id="XyU-n9-xst"/>
                     </connections>

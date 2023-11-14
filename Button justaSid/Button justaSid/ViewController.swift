@@ -16,17 +16,14 @@ class ViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-
     }
     
-    
-    @IBAction func truthAction(_ sender: UIButton) {
+    @IBAction func truthAction() {
         textLabel.text = Source.getInfo(type: .word)
     }
     
-    @IBAction func actionAction(_ sender: Any) {
+    @IBAction func actionAction() {
         textLabel.text = Source.getInfo(type: .action)
     }
-    
 }
 
